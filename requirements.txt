@@ -1,6 +1,7 @@
 #requirements
 #mysqlclient == 2.2.4
 #SQLAlchemy == 2.0.29
+streamlit == 1.33.0
 mysql
 mysqlclient
 SQLAlchemy
