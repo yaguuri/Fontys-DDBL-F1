@@ -1,5 +1,6 @@
 #requirements
 #mysqlclient == 2.2.4
 #SQLAlchemy == 2.0.29
+mysql
 mysqlclient
 SQLAlchemy
