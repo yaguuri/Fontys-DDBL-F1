@@ -1,0 +1,2 @@
+#write some files needed to be ignored by git
+secrets.toml
