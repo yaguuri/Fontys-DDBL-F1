@@ -4,9 +4,8 @@ import streamlit as st
 #st.sidebar("SideBar1")
 
 #Put Image
-from PIL import Image
-
-logo_img = Image.open("C:/Users/lys17/Desktop/DEEPSEARCH_logo.png")
+#from PIL import Image
+#logo_img = Image.open("C:/Users/lys17/Desktop/DEEPSEARCH_logo.png")
 
 #Columns
 col1, col2 = st.columns([2,3]) #split space into 2:3
