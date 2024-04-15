@@ -12,7 +12,7 @@ conn = st.connection("mysql", type="sql")
 
 #perform query
 #ttl=600: to ensure the query result is cached for no longer than 10 minutes
-df = conn.query("SELECT * FROM mytable;", ttl=600)
+df = conn.query("SELECT * FROM player;", ttl=600)
     
 #print result
-st.table(df.head())
+st.table(df)
