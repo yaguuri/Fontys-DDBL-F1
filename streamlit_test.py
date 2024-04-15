@@ -14,6 +14,16 @@ col1, col2 = st.columns([2,3]) #split space into 2:3
 with col1:
     st.title("column1")
 
+    #Initialize connection
+    conn = st.connection("mysql", type="sql")
+
+    #perform query
+    #ttl=600: to ensure the query result is cached for no longer than 10 minutes
+    df = conn.query("SELECT * FROM player;", ttl=600)
+    
+    #print result
+    st.table(df.head(10))
+
 #contents of col2
 with col2:
     st.title("column2")
