@@ -1,5 +1,14 @@
 import streamlit as st
 
+#Side Bar
+st.sidebar("SideBar1")
+
+#Put Image
+from PIL import Image
+
+logo_img = Image.open("Desktop/DEEPSEARCH logo.png")
+
+#Columns
 col1, col2 = st.columns([2,3]) #split space into 2:3
 
 #contents of col1
@@ -21,14 +30,3 @@ with tab1:
 
 with tab2:
     st.write("Here is the Tab 2")
-
-
-#Side Bar
-st.sidebar("SideBar1")
-
-#Put Image
-from PIL import Image
-
-logo_img = Image.open("Desktop/DEEPSEARCH logo.png")
-
-
